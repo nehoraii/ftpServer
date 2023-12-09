@@ -1,6 +1,4 @@
 package org.example;
-
-import org.apache.commons.net.ftp.*;
 import org.apache.ftpserver.FtpServer;
 import org.apache.ftpserver.FtpServerFactory;
 import org.apache.ftpserver.ftplet.FtpException;
@@ -11,10 +9,7 @@ import org.apache.ftpserver.usermanager.impl.BaseUser;
 import org.apache.ftpserver.usermanager.impl.PropertiesUserManager;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.net.ServerSocket;
-
+//Not relevant to serve just code not to use the project\\
 public class FTPServer {
 
     public void startServer(int port) throws FtpException {
