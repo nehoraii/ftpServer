@@ -17,7 +17,6 @@ import java.util.Map;
 
 public class Main {
     private static int port=21;
-    private static String pathToSave="C:\\Users\\user\\Desktop\\w\\";
     private static String username=null;
     private static String password=null;
     private static String homeDirectory=null;
@@ -99,8 +98,7 @@ public class Main {
             @Override
             public FtpletResult onDisconnect(FtpSession session)
             {
-                homeDirectory =  pathToSave+username;
-                createUser(um, username, password, homeDirectory);
+                createUser(um, username, password);
                 username=null;
                 password=null;
                 homeDirectory=null;
@@ -116,7 +114,7 @@ public class Main {
             System.out.println(ex);
         }
     }
-    private static void createUser(UserManager userManager, String username, String password, String homeDirectory) {
+    private static void createUser(UserManager userManager, String username, String password) {
         BaseUser user = new BaseUser();
         user.setName(username);
         user.setPassword(password);
