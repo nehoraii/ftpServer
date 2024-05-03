@@ -16,11 +16,17 @@ import java.util.List;
 import java.util.Map;
 
 public class Main {
-    private static int port=21;
-    private static String username=null;
-    private static String password=null;
-    private static String homeDirectory=null;
-    private static String pathUsersProperties="C:\\Users\\user\\IdeaProjects\\ftpServer\\src\\main\\resources\\users.properties";
+    private static int port=21; //שדה המכיל את מספר הפורט שהשרת ירוץ עליו.
+    private static String username=null;//שדה המכיל את שם המשתמש של המשתמש שמתחבר.
+    private static String password=null;//שדה המכיל את הסיסמה של המתחבר.
+    private static String homeDirectory=null; //שדה המכיל את הנתיב בשרת שאליו ישמור המשתמש את השיר/ישלוף ממנו את השיר.
+    private static String pathUsersProperties="C:\\Users\\user\\IdeaProjects\\ftpServer\\src\\main\\resources\\users.properties";//שדה המכיל את הנתיב למסמך המשתמשים.
+
+    /*
+    מקבלת: כלום.
+    מבצעת: בודקת אם המשתמש קיים אם לא יוצרת אותו ואם כן מוסיפה/מביאה את השיר שהוא רוצה.
+    מחזירה: כלום.
+    */
     public static void main(String[] args) {
         FtpServerFactory serverFactory = new FtpServerFactory();
         ListenerFactory factory = new ListenerFactory();
@@ -114,6 +120,12 @@ public class Main {
             System.out.println(ex);
         }
     }
+
+    /*
+    מקבלת: את האובייקט UserManager את שם המשתמש והסיסמה.
+    מבצעת: יוצרת משתמש חדש ומוסיפה אותו לקובץ ששומר את פרטי המשתמשים.
+    מחזירה: כלום.
+     */
     private static void createUser(UserManager userManager, String username, String password) {
         BaseUser user = new BaseUser();
         user.setName(username);

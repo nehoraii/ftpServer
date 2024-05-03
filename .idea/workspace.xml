@@ -7,6 +7,7 @@
     <list default="true" id="ea187116-e36f-437f-a0e0-66385ffaca1b" name="Changes" comment="create ftp server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/users.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/users.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/ftpServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
@@ -84,6 +86,25 @@
       <workItem from="1707657927540" duration="1615000" />
       <workItem from="1707936948268" duration="612000" />
       <workItem from="1708518614885" duration="238000" />
+      <workItem from="1708518905198" duration="41000" />
+      <workItem from="1709838381772" duration="573000" />
+      <workItem from="1710185608577" duration="183000" />
+      <workItem from="1710275097499" duration="607000" />
+      <workItem from="1710351111117" duration="1220000" />
+      <workItem from="1710946737208" duration="610000" />
+      <workItem from="1711056129454" duration="619000" />
+      <workItem from="1711355296510" duration="609000" />
+      <workItem from="1711360047673" duration="422000" />
+      <workItem from="1711366677346" duration="2871000" />
+      <workItem from="1711374053371" duration="383000" />
+      <workItem from="1711610269419" duration="898000" />
+      <workItem from="1712328330027" duration="781000" />
+      <workItem from="1712435948746" duration="761000" />
+      <workItem from="1714634401991" duration="669000" />
+      <workItem from="1714680345372" duration="90000" />
+      <workItem from="1714680773010" duration="25000" />
+      <workItem from="1714680958940" duration="8000" />
+      <workItem from="1714681003976" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="create ftp server">
       <created>1702141614409</created>
@@ -99,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702141805972</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create ftp server">
+      <created>1708518935361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708518935361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +136,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create ftp server" />
     <option name="LAST_COMMIT_MESSAGE" value="create ftp server" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
